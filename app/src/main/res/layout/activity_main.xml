@@ -30,4 +30,18 @@
         android:id="@+id/btn_enviar"
         android:onClick="enviar_datos"/>
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:text="Mostrar datos firebase"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/lista_persona">
+
+    </android.support.v7.widget.RecyclerView>
+
 </LinearLayout>
