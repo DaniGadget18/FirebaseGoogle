@@ -3,6 +3,11 @@ package com.example.firebasegoogle;
 public class Persona {
     private String nombre;
 
+    public Persona()
+    {
+
+    }
+
     public Persona(String nombre) {
         this.nombre = nombre;
     }
